@@ -1,0 +1,10 @@
+Array Declarations
+    type name[size];
+
+    The type is what kind of variable each element of the array will be.
+    The name is what you want to call the array
+    The size is how mana elements you would like your array to contain
+
+//Examples
+    int student_grades[40];
+    double menu_prices[8]
