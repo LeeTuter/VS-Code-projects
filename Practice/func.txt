@@ -1,0 +1,51 @@
+//CS50 Function short follow allong
+
+//Function declarations should go at the top, before main
+    return-type name(argument-list);
+        return-type is what kind of variable the function will output
+        name is what you want to call your function.
+        argument-list is the comma-separated set of inputs to your function, each of which has a type and a name
+
+float mult_two_reals(float x, float y);
+
+float mutl_two_reals(float c, float y)
+{
+    float product - x * y;
+    return product
+}
+
+
+//This is another way to implement the above defined func
+float mutl_two_reals(float c, float y)
+{
+    return x * y;
+}
+
+
+//Practice define add_two_ints() given the following
+
+    int add_two_ints(int a, int b);
+
+    int add_two_ints(int a, int b)
+    {
+        int sum;            // declare variable
+        sum = a + b;        // calculate the sum
+        retun sum;          // give result back
+    }
+
+
+//v2 of above - more efficient
+    int add_two_ints(int a, int b);
+
+    int add_two_ints(int a, int b)
+    {
+        int sum = a + b;    // calculate variable
+        retun sum;          // give result back
+    }
+
+    int add_two_ints(int a, int b);
+
+    int add_two_ints(int a, int b)
+    {
+        return - a + b;
+    }
