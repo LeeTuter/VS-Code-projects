@@ -3,6 +3,7 @@
 //Function declarations should go at the top, before main
     return-type name(argument-list);
         return-type is what kind of variable the function will output
+            function must have return x; defined within or it will not be used in main when called as it will provide no output to utilize in main.
         name is what you want to call your function.
         argument-list is the comma-separated set of inputs to your function, each of which has a type and a name
 
